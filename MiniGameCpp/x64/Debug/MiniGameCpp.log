@@ -1,27 +1,4 @@
-﻿  MainMenuScene.cpp
-D:\Dev\MiniGameCpp\MiniGameCpp\MiniGameCpp\SceneManager.h(6,14): error C2061: erreur de syntaxe : identificateur 'SceneDefinition'
-D:\Dev\MiniGameCpp\MiniGameCpp\MiniGameCpp\SceneManager.h(8,32): error C2061: erreur de syntaxe : identificateur 'SceneDefinition'
-D:\Dev\MiniGameCpp\MiniGameCpp\MiniGameCpp\SceneManager.h(12,17): error C2143: erreur de syntaxe : absence de ';' avant '*'
-D:\Dev\MiniGameCpp\MiniGameCpp\MiniGameCpp\SceneManager.h(12,17): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
-D:\Dev\MiniGameCpp\MiniGameCpp\MiniGameCpp\SceneManager.h(12,30): error C2238: jetons inattendus avant ';'
-  MiniGameCpp.cpp
-D:\Dev\MiniGameCpp\MiniGameCpp\MiniGameCpp\SceneDefinition.h(9,17): error C2061: erreur de syntaxe : identificateur 'SceneManager'
-D:\Dev\MiniGameCpp\MiniGameCpp\MiniGameCpp\SceneDefinition.h(11,14): error C2143: erreur de syntaxe : absence de ';' avant '*'
-D:\Dev\MiniGameCpp\MiniGameCpp\MiniGameCpp\SceneDefinition.h(11,14): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
-D:\Dev\MiniGameCpp\MiniGameCpp\MiniGameCpp\SceneDefinition.h(11,28): error C2238: jetons inattendus avant ';'
-D:\Dev\MiniGameCpp\MiniGameCpp\MiniGameCpp\MainMenuScene.h(7,15): error C2664: 'SceneDefinition::SceneDefinition(const SceneDefinition &)' : impossible de convertir l'argument 1 de 'SceneManager *' en 'const SceneDefinition &'
-D:\Dev\MiniGameCpp\MiniGameCpp\MiniGameCpp\MainMenuScene.h(7,15): message : Raison : impossible de convertir de 'SceneManager *' en 'const SceneDefinition'
-D:\Dev\MiniGameCpp\MiniGameCpp\MiniGameCpp\MainMenuScene.h(7,15): message : Aucun constructeur n'a pu prendre le type de source, ou la résolution de la surcharge du constructeur était ambiguë
-D:\Dev\MiniGameCpp\MiniGameCpp\MiniGameCpp\SceneDefinition.h(14,1): message : voir la déclaration de 'SceneDefinition::SceneDefinition'
-  SceneDefinition.cpp
-D:\Dev\MiniGameCpp\MiniGameCpp\MiniGameCpp\SceneManager.h(6,14): error C2061: erreur de syntaxe : identificateur 'SceneDefinition'
-D:\Dev\MiniGameCpp\MiniGameCpp\MiniGameCpp\SceneManager.h(8,32): error C2061: erreur de syntaxe : identificateur 'SceneDefinition'
-D:\Dev\MiniGameCpp\MiniGameCpp\MiniGameCpp\SceneManager.h(12,17): error C2143: erreur de syntaxe : absence de ';' avant '*'
-D:\Dev\MiniGameCpp\MiniGameCpp\MiniGameCpp\SceneManager.h(12,17): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
-D:\Dev\MiniGameCpp\MiniGameCpp\MiniGameCpp\SceneManager.h(12,30): error C2238: jetons inattendus avant ';'
-  SceneManager.cpp
-D:\Dev\MiniGameCpp\MiniGameCpp\MiniGameCpp\SceneDefinition.h(9,17): error C2061: erreur de syntaxe : identificateur 'SceneManager'
-D:\Dev\MiniGameCpp\MiniGameCpp\MiniGameCpp\SceneDefinition.h(11,14): error C2143: erreur de syntaxe : absence de ';' avant '*'
-D:\Dev\MiniGameCpp\MiniGameCpp\MiniGameCpp\SceneDefinition.h(11,14): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
-D:\Dev\MiniGameCpp\MiniGameCpp\MiniGameCpp\SceneDefinition.h(11,28): error C2238: jetons inattendus avant ';'
-  Génération de code en cours...
+﻿  SceneBuilder.cpp
+E:\Perso\RaylibProject\RaylibProject\CppTestGround\TestGround\TestGround\SceneBuilder.cpp(8,2): warning C4091: 'typedef ': ignored on left of 'SceneIndex' when no variable is declared
+E:\Perso\RaylibProject\RaylibProject\CppTestGround\TestGround\TestGround\SceneBuilder.cpp(19,2): warning C4065: switch statement contains 'default' but no 'case' labels
+  MiniGameCpp.vcxproj -> E:\Perso\RaylibCpp-Minigame\x64\Debug\MiniGameCpp.exe

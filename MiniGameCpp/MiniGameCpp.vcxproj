@@ -116,12 +116,12 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;GRAPHICS_API_OPENGL_33;PLATFORM_DESKTOP;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>D:\Dev\Raylib\raylib\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\Perso\raylib\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>D:\Dev\Raylib\raylib\projects\VS2019\build\raylib\bin\x64\Release.DLL;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>E:\Perso\raylib\projects\VS2019\build\raylib\bin\x64\Release.DLL;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>raylib.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
@@ -142,22 +142,22 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\RaylibProject\RaylibProject\CppTestGround\TestGround\TestGround\Scene.cpp" />
+    <ClCompile Include="..\..\RaylibProject\RaylibProject\CppTestGround\TestGround\TestGround\SceneBuilder.cpp" />
+    <ClCompile Include="..\..\RaylibProject\RaylibProject\CppTestGround\TestGround\TestGround\SceneManagement.cpp" />
     <ClCompile Include="Component.cpp" />
     <ClCompile Include="GameObject.cpp" />
-    <ClCompile Include="MainMenuScene.cpp" />
     <ClCompile Include="MiniGameCpp.cpp" />
-    <ClCompile Include="SceneDefinition.cpp" />
-    <ClCompile Include="SceneManager.cpp" />
     <ClCompile Include="Spaceship.cpp" />
     <ClCompile Include="SpriteRenderer.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\RaylibProject\RaylibProject\CppTestGround\TestGround\TestGround\Scene.h" />
+    <ClInclude Include="..\..\RaylibProject\RaylibProject\CppTestGround\TestGround\TestGround\SceneBuilder.h" />
+    <ClInclude Include="..\..\RaylibProject\RaylibProject\CppTestGround\TestGround\TestGround\SceneManagement.h" />
     <ClInclude Include="Component.h" />
     <ClInclude Include="GameObject.h" />
-    <ClInclude Include="MainMenuScene.h" />
     <ClInclude Include="resource.h" />
-    <ClInclude Include="SceneDefinition.h" />
-    <ClInclude Include="SceneManager.h" />
     <ClInclude Include="Spaceship.h" />
     <ClInclude Include="SpriteRenderer.h" />
   </ItemGroup>

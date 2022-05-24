@@ -31,6 +31,12 @@
     <Filter Include="Fichiers sources\src\Scenes">
       <UniqueIdentifier>{3537aac9-10c3-415e-b872-19f6d1a7670f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Fichiers d%27en-tête\Components">
+      <UniqueIdentifier>{2fffa49b-5547-4b42-99cb-2e57066245a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\SceneSystem">
+      <UniqueIdentifier>{95f9a334-2aa0-4f38-8a64-684ed63265bd}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MiniGameCpp.cpp">
@@ -45,27 +51,21 @@
     <ClCompile Include="Component.cpp">
       <Filter>Fichiers sources\Components</Filter>
     </ClCompile>
-    <ClCompile Include="SceneManager.cpp">
-      <Filter>Fichiers sources\Systems\SceneSystem</Filter>
-    </ClCompile>
-    <ClCompile Include="SceneDefinition.cpp">
-      <Filter>Fichiers sources\Systems\SceneSystem</Filter>
-    </ClCompile>
     <ClCompile Include="Spaceship.cpp">
       <Filter>Fichiers sources\src</Filter>
     </ClCompile>
-    <ClCompile Include="MainMenuScene.cpp">
-      <Filter>Fichiers sources</Filter>
+    <ClCompile Include="..\..\RaylibProject\RaylibProject\CppTestGround\TestGround\TestGround\SceneManagement.cpp">
+      <Filter>Fichiers sources\Systems\SceneSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RaylibProject\RaylibProject\CppTestGround\TestGround\TestGround\Scene.cpp">
+      <Filter>Fichiers sources\Systems\SceneSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\RaylibProject\RaylibProject\CppTestGround\TestGround\TestGround\SceneBuilder.cpp">
+      <Filter>Fichiers sources\Systems\SceneSystem</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GameObject.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="SpriteRenderer.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="Component.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
     <ClInclude Include="resource.h">
@@ -74,14 +74,20 @@
     <ClInclude Include="Spaceship.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="SceneManager.h">
-      <Filter>Fichiers d%27en-tête</Filter>
+    <ClInclude Include="SpriteRenderer.h">
+      <Filter>Fichiers d%27en-tête\Components</Filter>
     </ClInclude>
-    <ClInclude Include="SceneDefinition.h">
-      <Filter>Fichiers d%27en-tête</Filter>
+    <ClInclude Include="Component.h">
+      <Filter>Fichiers d%27en-tête\Components</Filter>
     </ClInclude>
-    <ClInclude Include="MainMenuScene.h">
-      <Filter>Fichiers d%27en-tête</Filter>
+    <ClInclude Include="..\..\RaylibProject\RaylibProject\CppTestGround\TestGround\TestGround\SceneManagement.h">
+      <Filter>Fichiers d%27en-tête\SceneSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RaylibProject\RaylibProject\CppTestGround\TestGround\TestGround\SceneBuilder.h">
+      <Filter>Fichiers d%27en-tête\SceneSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\RaylibProject\RaylibProject\CppTestGround\TestGround\TestGround\Scene.h">
+      <Filter>Fichiers d%27en-tête\SceneSystem</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
