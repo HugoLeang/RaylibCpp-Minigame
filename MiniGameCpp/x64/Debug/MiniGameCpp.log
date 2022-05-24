@@ -1,0 +1,4 @@
+﻿  SpriteRenderer.cpp
+D:\Dev\MiniGameCpp\MiniGameCpp\MiniGameCpp\SpriteRenderer.cpp(30,45): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
+D:\Dev\MiniGameCpp\MiniGameCpp\MiniGameCpp\SpriteRenderer.cpp(30,33): warning C4244: 'argument' : conversion de 'float' en 'int', perte possible de données
+  MiniGameCpp.vcxproj -> D:\Dev\MiniGameCpp\MiniGameCpp\x64\Debug\MiniGameCpp.exe
