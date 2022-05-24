@@ -2,22 +2,20 @@
 #include "raylib.h"
 #include "GameObject.h"
 #include "Spaceship.h"
+#include "SceneManager.h"
+#include "MainMenuScene.h"
 int main()
 {
     InitWindow(900, 900, "Mini Game CPP");
-
-     Spaceship testSprite = Spaceship();
+    SceneManager* sceneManager = new SceneManager(new MainMenuScene(sceneManager));
 
     while (!WindowShouldClose()) {
+        float deltaTime = GetFrameTime();
         //Update
+        sceneManager->updateSceneContent(deltaTime);
         //Draw
         BeginDrawing();
-        ClearBackground(GRAY);
-
-       
-        for (auto component : testSprite.Components) {
-            component->DrawComponent(GetFrameTime());
-        }
+        sceneManager->drawSceneContent(deltaTime);
         EndDrawing();
     }
 }

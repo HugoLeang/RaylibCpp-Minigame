@@ -19,8 +19,17 @@
     <Filter Include="Fichiers sources\Components">
       <UniqueIdentifier>{4ac50e59-d537-4c7b-8188-65246cc51b3f}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Fichiers sources\Src">
+    <Filter Include="Fichiers sources\Systems">
+      <UniqueIdentifier>{f2ca1f15-cc87-44e3-9719-bfb76d3374c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Systems\SceneSystem">
+      <UniqueIdentifier>{c6ae9263-7d1a-4cf4-bc7d-846cd3c16f32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\src">
       <UniqueIdentifier>{1de959ab-0ff1-4648-a617-847996c281cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\src\Scenes">
+      <UniqueIdentifier>{3537aac9-10c3-415e-b872-19f6d1a7670f}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -36,7 +45,16 @@
     <ClCompile Include="Component.cpp">
       <Filter>Fichiers sources\Components</Filter>
     </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Fichiers sources\Systems\SceneSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneDefinition.cpp">
+      <Filter>Fichiers sources\Systems\SceneSystem</Filter>
+    </ClCompile>
     <ClCompile Include="Spaceship.cpp">
+      <Filter>Fichiers sources\src</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuScene.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
   </ItemGroup>
@@ -54,6 +72,15 @@
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
     <ClInclude Include="Spaceship.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneDefinition.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuScene.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
   </ItemGroup>

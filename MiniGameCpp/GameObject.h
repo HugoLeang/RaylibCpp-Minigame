@@ -8,7 +8,7 @@ public:
 	GameObject(Vector2 startPos);
 	GameObject();
     ~GameObject();
-	std::vector <Component*> Components;
-	Transform m_Transform;
+	std::vector <Component*> components;
+	Transform transform;
 };
 

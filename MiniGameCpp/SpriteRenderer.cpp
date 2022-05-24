@@ -20,12 +20,12 @@ SpriteRenderer::~SpriteRenderer()
 	UnloadTexture(m_Texture);
 }
 
-void SpriteRenderer::UpdateComponent(float tick)
+void SpriteRenderer::updateComponent(float tick)
 {
 }
 
-void SpriteRenderer::DrawComponent(float tick)
+void SpriteRenderer::drawComponent(float tick)
 {
-	Vector3 spritePos = m_GameObject->m_Transform.translation;
+	Vector3 spritePos = m_GameObject->transform.translation;
 	DrawTexture(m_Texture,spritePos.x,spritePos.y,m_Tint);
 }

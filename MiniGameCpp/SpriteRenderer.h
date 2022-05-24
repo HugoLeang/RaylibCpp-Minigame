@@ -10,8 +10,9 @@ class SpriteRenderer : public Component
 public:
 	SpriteRenderer(GameObject* gameObject, Vector2 initPos, Color tint, const char* fileName);
 	SpriteRenderer(GameObject* gameObject,Vector2 initPos,const char* fileName);
+	SpriteRenderer(GameObject* gameObject, Vector2 initPos);
 	~SpriteRenderer();
-	void UpdateComponent(float tick) override;
-	void DrawComponent(float tick) override;
+	void updateComponent(float tick) override;
+	void drawComponent(float tick) override;
 };
 

@@ -9,10 +9,10 @@ Component::~Component()
 {
 }
 
-void Component::UpdateComponent(float tick)
+void Component::updateComponent(float tick)
 {
 }
 
-void Component::DrawComponent(float tick)
+void Component::drawComponent(float tick)
 {
 }
